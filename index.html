@@ -118,7 +118,8 @@
 
 
         <!-- wedding -->
-        <div class="container d-flex my-5 gap-5 align-items-center">
+        <div
+            class="container d-flex flex-column flex-lg-row flex-xl-row flex-sm-column flex-md-column my-5 gap-5 align-items-center">
             <div>
                 <img src="images/wedding.png" alt="">
             </div>
@@ -141,7 +142,7 @@
             <h1 class="my-5 fw-bold text-center">Our package</h1>
 
 
-            <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-5">
                 <div class="col">
                     <div class="card h-100 border-0">
                         <div class="card-body">
@@ -257,7 +258,8 @@
         <!-- accordian -->
         <section class="container" id="accordion">
             <h1 class="fw-bold text-center">Frequently Asked Questions:</h1>
-            <div class="d-flex align-items-center mt-5 gap-5">
+            <div
+                class="d-flex align-items-center flex-column flex-lg-row flex-xl-row flex-sm-column flex-md-column mt-5 gap-5">
                 <div class="acc">
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         <div class="accordion-item">
@@ -343,7 +345,7 @@
                     </div>
                 </div>
                 <div class="accimg">
-                    <img src="images/people.png" alt="">
+                    <img class="img-fluid" src="images/people.png" alt="">
                 </div>
             </div>
         </section>
@@ -352,13 +354,18 @@
 
 
 
-    <footer class="bg-dark d-flex justify-content-around align-items-center foooter">
-        <div>
-            <p class="text-white">© 2020 bike. All rights reserved</p>
-        </div>
-        <div class="duipa">
-            <p class="text-white">Get the App from:</p>
-            <img src="icons/footer.png" alt="">
+    <footer class="bg-dark w-100 d-flex justify-content-center">
+        <div class="container">
+            <div class="row d-flex f-row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <p class="text-white">© 2020 bike. All rights reserved</p>
+                </div>
+                <div class="col-md-6 align-items-center justify-content-center duipa">
+                    <p class="text-white">Get the App from:</p>
+                    <img src="icons/footer.png" alt="">
+                </div>
+            </div>
+
         </div>
     </footer>
 
